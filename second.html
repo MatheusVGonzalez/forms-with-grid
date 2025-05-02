@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 1</title>
+    <link rel="stylesheet" href="style2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <form id="contact-form" action="/submit-path" method="post">
+        <div id="logo"> 
+            <img src="image.png" alt="logo" name="image"id="Logo">
+        </div>
+        <div id="contact-field">
+            <label for="Contact" id="contact" name="contact">Contact Us</label>
+        </div>
+        <div id="name-field">
+            <input type="text" id="name-input" name="name" placeholder="Full Name" required>
+        </div>
+        <div id="email-field">
+            <input type="text" id="email-input" name="email" placeholder="E-mail" required>
+        </div>
+        <div id="message-field">
+            <input type="text" id="message-input" name="message" placeholder="Message" required>
+        </div>
+        <div id="submit-field">
+            <button type="submit" id="submit" value="Submit">Contact Us</button>
+        </div>
+        <div id="contacts-field">
+            <label for="Contact" id="Big" name="name-cont"> Contact <br></label>
+            <label for="Email" id="Normal" name="email-cont"> hi@green.com</label>
+        </div>
+        <div id="city-field">
+            <label for="City" id="Big"> Based in <br></label>
+            <label for="City" id="Normal"> New York,<br></label>
+            <label for="City" id="Normal"> California,Ohio</label>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,107 @@
+#contact-form{
+    display: grid;
+    background-color: #f2ece6;
+    grid-template-areas:
+        "image contact contact"
+        "image name name-cont"
+        "image email email-cont"
+        "image message empty"
+        "image submit socialmedia";
+    width:60%;  
+    padding: 20px; 
+    border-radius: 15px; 
+    gap: 10px;
+}
+
+#logo{
+    grid-area: image;
+}
+
+#contact-field{
+    grid-area: contact;
+    text-align: center;
+    color:black;
+    margin-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-family: 'Playfair Display', serif;
+
+}
+
+#name-field{
+    grid-area: name;
+
+}
+
+#email-field{
+    grid-area: email;
+}
+
+#message-field{
+    grid-area: message;
+}
+
+#submit-field{
+    grid-area: submit;
+}
+
+#contacts-field{
+    grid-area: name-cont;
+    padding-left: 15px;
+}
+
+#city-field{
+    grid-area: email-cont;
+    padding-left: 15px;
+}
+
+#socialmedia{
+    grid-area: socialmedia;
+}
+
+
+/*labels*/
+
+#contact{
+    width: 100%;
+    padding-right: 65%;
+}
+
+#name-input,
+#email-input,
+#message-input {
+    background-color: #f2ece6;
+    border: none;
+    border-bottom: 2px solid #2d2c4a; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 5px 0; 
+    outline: none; 
+
+}
+
+#submit{
+    background-color: #00044b;
+    color: #f2ece6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 10px 0; 
+    outline: none; 
+    border: none;
+}
+
+#Big{
+    font-size: 15px;
+    font-weight: bold;
+    color: #00044b;
+    font-family: 'Playfair Display', serif;
+    align-items: center;
+
+}
