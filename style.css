@@ -1,0 +1,82 @@
+#contact-form{
+    display: grid;
+    background-color: #3849e7;
+    grid-template-areas:
+        "heading heading"
+        "message message"
+        "name email"
+        "phone phone "
+        "submit submit";
+    justify-content: center;
+    align-content: center;
+    width: 40%;  
+    padding: 20px; 
+    border-radius: 15px; 
+    gap: 10px;
+
+}
+
+#contact-form h2{
+    grid-area: heading;
+    text-align: center;
+    color:white;
+    margin-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+#contact-form p{
+    grid-area: message;
+    text-align: center;
+    color:white;
+    margin-top: 0px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#name-input{
+    grid-area: name;
+    width: 90%;
+    gap: 10px;
+    border-radius: 10px;
+    padding: 8px;
+    margin-right: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#number-input{
+    grid-area: phone;
+    width: 100%;
+    border-radius: 10px;
+    padding: 8px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#email-input{
+    grid-area: email;
+    width: 100%;
+    padding: 8px;
+    border-radius: 10px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#phone-field{
+    grid-area: phone;
+    border-radius: 100px;
+    
+}
+
+
+#submit{
+    grid-area: submit;
+    width: 50%;
+    padding: 8px;
+    border-radius: 10px;
+    color: #3849e7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
