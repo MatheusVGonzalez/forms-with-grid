@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style3.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <form id="contact-form" action="/submit-path" method="post">
+        <div id="heading-field">
+            <h2>Book your appointment now</h2>
+            <p>So our team can reach out to you on time</p>
+        </div>
+        <div id="name-field">
+            <label for="Full Name" id="name" name="name">Full Name</label>  
+            <input type="text" id="name-input" name="name" placeholder="eg: John Doe" required>
+        </div>
+        <div id="email-field">
+            <label for="E-mail" id="email" name="email">Email <br></label>
+            <input type="text" id="email-input" name="email" placeholder="eg: john@email.com" required>
+        </div>
+        <div id="phone-field">
+            <label for="Phone Number">Phone Number</label>
+            <div class="phone-container">
+              <select name="ddi">
+                <option value="+971">+971</option>
+                <option value="+55">+55</option>
+                <option value="+1">+1</option>
+              </select>
+              <input type="text" name="phone" id="phone-input" placeholder="543210987" required>
+            </div>
+          </div>
+        <div id="available-field">
+            <label for="Available" id="available" name="available"> Available Date <br></label>
+            <select>
+                <option value="Select">Select</option>
+                <option value="Tomorrow">Tomorrow</option>
+                <option value="Day after tomorrow">Day after tomorrow</option>
+                <option value="Weekend">Weekend</option>
+            </select>
+        </div>
+        <div id="message-field">
+            <label for="Message">Share Your Message</label>
+            <textarea id="message-input" name="message" placeholder="Message" required></textarea>
+          </div>
+          <div id="submit-field">
+            <button type="submit" id="submit">Book Now →</button>
+          </div>
+    </form>
+    
+    <a href="Mockup-2.html">Previous</a>
+    <a href="Mockup-4.html">Next</a>
+</body>
+</html>

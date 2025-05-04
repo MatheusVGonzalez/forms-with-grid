@@ -55,8 +55,16 @@
     padding-left: 15px;
 }
 
-#socialmedia{
+.social-media{
     grid-area: socialmedia;
+}
+
+#facebook, #instagram, #twitter{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 50px;
 }
 
 

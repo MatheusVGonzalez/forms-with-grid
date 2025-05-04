@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style4.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <form id="contact-form" action="/submit-path" method="post">
+        <div id="heading-field">
+            <h2>Job Application ( Web )</h2>
+        </div>
+        <div id="name-field">
+            <label for="First Name" id="name" name="name">First Name <br></label>  
+            <input type="text" id="name-input" name="name" placeholder="Enter First Name" required>
+        </div>
+        <div id="lastname-field">
+            <label for="Last Name" id="lastname" name="lastname">Last Name <br></label>
+            <input type="text" id="lastname-input" name="lastname" placeholder="Enter Last Name" required>
+        </div>
+        <div id="email-field">
+            <label for="Message">Email <br></label>
+            <input type="text" id="email-input" name="email" placeholder="Enter email" required>
+          </div>
+        <div id="job-field">
+            <label for="Job">Job Role <br></label>
+            <select id="job-input">
+                <option value="Frontend">Frontend Developer</option>
+                <option value="Fullstack">FullStack</option>
+                <option value="Backend">Backend</option>
+            </select>
+        </div>
+        <div id="message-field">
+            <label for="Message">Enter Address <br></label>
+            <textarea id="message-input" name="message" required></textarea>
+        </div>
+        <div id="city-field">
+            <label for="City">City <br></label>
+            <input type="text" id="city-input" name="email" placeholder="Enter City" required>
+          </div>
+        <div id="zip-field">
+            <label for="Zip">Zip <br></label>
+            <input type="text" id="zip-input" name="zip" placeholder="Enter Zip Code" required>
+        </div>
+        <div id="date-field">
+            <label for="Date">Start Date <br></label>
+            <input type="date" id="date-input" name="date" placeholder="Enter Date" required>
+        </div>
+        <div id="CV-field">
+            <label for="CV">Upload CV <br></label>
+            <input type="file" id="CV-input" name="CV" placeholder="Upload CV" required>
+        </div>
+          <div id="submit-field">
+            <button type="submit" id="submit">Apply Now</button>
+          </div>
+    </form>
+
+    <a href="Mockup-3.html">Previous</a>
+    
+</body>
+</html>
